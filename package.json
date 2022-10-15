@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "scripts": {
+    
+    "start": "node server.js",
+    "postinstall": "ng build --aot --prod"
+  },
+  
+  "engines": {
+    "node": "16.15.1",
+    "npm": "8.19.2"
+  }
+}
